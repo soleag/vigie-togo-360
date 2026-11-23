@@ -1,0 +1,105 @@
+{
+  "isri_tg": {
+    "titre": "ISRI-TG — Indices FSI et FRI au Togo",
+    "producteur": "Ministère de l'Environnement",
+    "url": "https://opendata.gouv.tg/datasets/indices-de-susceptibilite-fsi-et-de-risque-dinondation-fri-au-togo",
+    "licence": "ODC-PDDL 1.0",
+    "licence_ok": true,
+    "date_maj": "2026-06-30",
+    "formats": ["ZIP", "GPKG", "PNG", "PDF"],
+    "piliers": ["inondation"],
+    "fichier_local": "geo_cantons_fri__*.gpkg",
+    "note": "Utilise uniquement le produit publié, pas les sources amont externes."
+  },
+  "dtcsmpec_tg": {
+    "titre": "DTCSMPEC-TG — Dynamique du trait de côte (2015-2025)",
+    "producteur": "Ministère de l'Environnement",
+    "url": "https://opendata.gouv.tg/datasets/dynamique-du-trait-de-cote-et-suivi-des-mesures-de-protection-contre-lerosion-cotiere-au-togo-2015-2025",
+    "licence": "ODC-PDDL 1.0",
+    "licence_ok": true,
+    "date_maj": "2026-06-09",
+    "formats": ["GeoJSON", "PDF"],
+    "piliers": ["erosion"],
+    "fichier_local": "erosion__*.geojson",
+    "note": "591 transects, EPR/LRR/NSM en m/an."
+  },
+  "pciaeph_tg": {
+    "titre": "PCIAEPH-TG — Projet COSO eau et hydraulique",
+    "producteur": "Ministère de l'Agriculture",
+    "url": "https://opendata.gouv.tg/datasets/projet-coso-infrastructures-dalimentation-en-eau-potable-et-hydraulique-au-togo",
+    "licence": "ODC-PDDL 1.0",
+    "licence_ok": true,
+    "date_maj": "2026-06-05",
+    "formats": ["GeoJSON", "CSV"],
+    "piliers": ["eau"],
+    "fichier_local": "pciaeph__*.csv",
+    "note": "218 sous-projets. Attention : incohérence population vs hommes+femmes."
+  },
+  "wfp_prix": {
+    "titre": "PAM / WFP — Prix des denrées au Togo",
+    "producteur": "Programme Alimentaire Mondial",
+    "url": "https://opendata.gouv.tg",
+    "licence": "CC BY-IGO",
+    "licence_ok": true,
+    "date_maj": "2024-12-31",
+    "formats": ["CSV"],
+    "piliers": ["alimentation"],
+    "fichier_local": "alim_prix_wfp__*.csv"
+  },
+  "formations_sanitaires": {
+    "titre": "Formations sanitaires au Togo",
+    "producteur": "Ministère de la Santé",
+    "url": "https://opendata.gouv.tg",
+    "licence": "Other (Open) — à clarifier",
+    "licence_ok": false,
+    "date_maj": "2025-01-09",
+    "formats": ["CSV"],
+    "piliers": ["sante"],
+    "fichier_local": "sante_formations__*.csv",
+    "note": "Licence à clarifier avant publication de résultats dérivés."
+  },
+  "eau_points": {
+    "titre": "Points d'eau (bornes, forages, PMH, châteaux)",
+    "producteur": "Ministère de l'Eau / TdE",
+    "url": "https://opendata.gouv.tg",
+    "licence": "Other (Open) — à clarifier",
+    "licence_ok": false,
+    "date_maj": "2024-12-19",
+    "formats": ["CSV"],
+    "piliers": ["eau"],
+    "fichier_local": "eau_*.csv"
+  },
+  "marches": {
+    "titre": "Marchés au Togo",
+    "producteur": "Ministère du Commerce",
+    "url": "https://opendata.gouv.tg",
+    "licence": "Other (Open) — à clarifier",
+    "licence_ok": false,
+    "date_maj": "2024-12-18",
+    "formats": ["CSV"],
+    "piliers": ["alimentation"],
+    "fichier_local": "alim_marches__*.csv"
+  },
+  "ecoles": {
+    "titre": "Établissements scolaires",
+    "producteur": "Ministère de l'Éducation",
+    "url": "https://opendata.gouv.tg",
+    "licence": "Other (Open) — à clarifier",
+    "licence_ok": false,
+    "date_maj": "2024-12-18",
+    "formats": ["CSV"],
+    "piliers": [],
+    "fichier_local": "edu_ecoles__*.csv"
+  },
+  "limites_admin": {
+    "titre": "Limites administratives (régions, préfectures, communes, cantons)",
+    "producteur": "geodata.gouv.tg",
+    "url": "https://geodata.gouv.tg",
+    "licence": "À clarifier — réutilisation soumise à contrepartie",
+    "licence_ok": false,
+    "date_maj": "2026-11-05",
+    "formats": ["GeoJSON", "GPKG"],
+    "piliers": [],
+    "fichier_local": "geo_*.json"
+  }
+}

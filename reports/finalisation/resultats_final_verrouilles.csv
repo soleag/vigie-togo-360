@@ -1,0 +1,15 @@
+indicateur,perimetre,valeur,unite
+niveau_canton_n,cantons,388,territoires
+niveau_commune_n,communes,117,territoires
+niveau_prefecture_n,prefectures,39,territoires
+niveau_region_n,regions,5,territoires
+classe_faible_n,cantons,0,territoires
+classe_modérée_n,cantons,1,territoires
+classe_élevée_n,cantons,293,territoires
+classe_critique_n,cantons,94,territoires
+double_vulnerabilite_60_30,cantons,250,territoires
+double_vulnerabilite_valides_60_30,cantons,388,territoires
+double_vulnerabilite_70_50,cantons,139,territoires
+double_vulnerabilite_valides_70_50,cantons,388,territoires
+double_vulnerabilite_75_55,cantons,66,territoires
+double_vulnerabilite_valides_75_55,cantons,388,territoires
